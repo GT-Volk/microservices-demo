@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: carts-db
-  labels:
-    name: carts-db
   namespace: sock-shop
 spec:
   selector:
@@ -59,8 +57,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: carts
-  labels:
-    name: carts
   namespace: sock-shop
 spec:
   selector:
@@ -120,8 +116,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: catalogue-db
-  labels:
-    name: catalogue-db
   namespace: sock-shop
 spec:
   selector:
@@ -166,8 +160,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: catalogue
-  labels:
-    name: catalogue
   namespace: sock-shop
 spec:
   selector:
@@ -265,8 +257,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: orders-db
-  labels:
-    name: orders-db
   namespace: sock-shop
 spec:
   selector:
@@ -322,8 +312,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: orders
-  labels:
-    name: orders
   namespace: sock-shop
 spec:
   selector:
@@ -383,8 +371,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: payment
-  labels:
-    name: payment
   namespace: sock-shop
 spec:
   selector:
@@ -432,8 +418,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: queue-master
-  labels:
-    name: queue-master
   namespace: sock-shop
 spec:
   selector:
@@ -474,8 +458,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: rabbitmq
-  labels:
-    name: rabbitmq
   namespace: sock-shop
 spec:
   selector:
@@ -524,8 +506,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: shipping
-  labels:
-    name: shipping
   namespace: sock-shop
 spec:
   selector:
@@ -585,8 +565,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: user-db
-  labels:
-    name: user-db
   namespace: sock-shop
 spec:
   selector:
@@ -642,8 +620,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: user
-  labels:
-    name: user
   namespace: sock-shop
 spec:
   selector:
